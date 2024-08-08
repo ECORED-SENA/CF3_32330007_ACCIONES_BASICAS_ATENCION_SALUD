@@ -1,7 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo:
+      'Atención básica al lesionado: protocolos y acciones iniciales',
+    descripcionCurso:
+      'Este componente formativo ofrece guías prácticas para la atención básica de personas lesionadas, siguiendo protocolos de primeros auxilios. Incluye fundamentos de anatomía, técnicas de valoración primaria, soporte vital básico en adultos y manejo de signos vitales. Diseñado para primeros respondientes, proporciona conocimientos esenciales para evaluar y estabilizar pacientes en situaciones de emergencia antes de la llegada de ayuda médica.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -31,13 +33,33 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Fundamentos básicos de anatomía',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Introducción a las posturas anatómicas',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Ubicación de los órganos abdominales',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'El esqueleto humano',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Funciones principales del sistema óseo',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Cartílagos, tendones y ligamentos',
+            hash: 't_1_5',
           },
         ],
       },
@@ -45,13 +67,40 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Signos vitales',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Frecuencia Cardiaca (FC)',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Frecuencia respiratoria (FR)',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Presión arterial (PA)',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Temperatura',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Valoración primaria',
+            hash: 't_2_5',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Soporte Vital Básico en el adulto',
         desarrolloContenidos: true,
       },
     ],
@@ -102,32 +151,138 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Fundamentos básicos de anatomía',
+      referencia:
+        'Chung, K. W. & Chung, H. M. (2008). <em>Anatomía</em>: (6 ed.). Wolters Kluwer Health. (Leer páginas 205-272)',
+      tipo: 'Libro',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/125453',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Frecuencia Cardiaca (FC)',
+      referencia:
+        'Revista del consumidor (PROFECO). (2013). <em>Resultados de laboratorio: Pulsómetros.</em>',
+      tipo: 'Artículo',
+      link:
+        'https://www.gob.mx/cms/uploads/attachment/file/100443/RC440_Laboratorio_Profeco_Pulsometros.pdf',
+    },
+    {
+      tema: 'Frecuencia respiratoria (FR)',
+      referencia:
+        'VITAL SUPPORT SAS. (2021). ¿CÓMO TOMAR LA FRECUENCIA RESPIRATORIA?. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/w1Z8CXwhm4o?feature=shared',
+    },
+    {
+      tema: 'Presión arterial (PA)',
+      referencia:
+        'DW Español (2023). ¿Cómo bajar la presión arterial de forma natural?. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/8SYSq051ej4?feature=shared',
+    },
+    {
+      tema: 'Soporte Vital Básico en el adulto',
+      referencia:
+        'Carmona Romera, A. B. & Rivas Hidalgo, A. M. (2022). Soporte Vital Básico. SANT0108: (1 ed.). (Leer  Capitulo 1)) IC Editorial.',
+      tipo: 'Libro',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/225085',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Bradicardia',
+      significado: 'frecuencia cardiaca por debajo de los valores normales.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Edema',
+      significado:
+        'acumulación anormal de líquido en los espacios intersticiales de los tejidos.',
+    },
+    {
+      termino: 'Endoscopio',
+      significado:
+        'instrumento utilizado para visualizar el interior de órganos y cavidades corporales.',
+    },
+    {
+      termino: 'Flexión',
+      significado:
+        'movimiento de algunas articulaciones que disminuye el ángulo entre huesos articulados.',
+    },
+    {
+      termino: 'Fractura',
+      significado:
+        'rotura de un hueso ocasionada por la aplicación de una fuerza violenta sobre el cuerpo; interrupción de la continuidad del tejido óseo.',
+    },
+    {
+      termino: 'Hematoma',
+      significado:
+        'acumulación de sangre que está atrapada en los tejidos de la piel o de un órgano.',
+    },
+    {
+      termino: 'Insuflar',
+      significado:
+        'introducir a soplos un gas, un líquido o una sustancia pulverizada en un órgano o en una cavidad.',
+    },
+    {
+      termino: 'Plano frontal',
+      significado:
+        'línea vertical que atraviesa el cuerpo de lado a lado y que lo divide en una parte anterior y otra posterior.',
+    },
+    {
+      termino: 'Taquicardia',
+      significado: 'frecuencia cardiaca por encima de los valores normales.',
+    },
+    {
+      termino: 'SVB',
+      significado: 'Soporte Vital Básico.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Anatomía diccionario referencia visual. (2016). Columna vertebral.',
       link: '',
+    },
+    {
+      referencia: 'Anatomia humana. (2016). Posición anatómica.',
+      link:
+        'http://unefaanatomia.blogspot.com.co/2008/04/anatoma-humana-generalidades.html',
+    },
+    {
+      referencia: 'Anatomia Humana. (2016). Sistema circulatorio.',
+      link: 'https://vimeo.com/48093179',
+    },
+    {
+      referencia:
+        'Carmona Romera, A. B. & Rivas Hidalgo, A. M. (2022). Soporte Vital Básico. SANT0208: (1 ed.). IC Editorial.',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/225084',
+    },
+    {
+      referencia: 'Guías de la AHA (2016). Aspectos destacados.',
+      link: '',
+    },
+    {
+      referencia:
+        'Hernández Padilla, J. M. Márquez Hernández, V. V. & Antequera Raynal, L. H. (2016). Soporte vital básico y avanzado: basado en las recomendaciones ERC-2015: ( ed.). Editorial Universidad de Almería.',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/44563',
+    },
+    {
+      referencia: 'Junta de Andalucia. (2016). Circulatorio.',
+      link: '',
+    },
+    {
+      referencia:
+        'Prehospital Trauma life support committee of the national association of emergency medical technicians. (2012) The committee on trauma of the american college of surgeons. Soporte vital básico y avanzado en el trauma prehospitalario PHTLS. 7 Ed. Elsevier, España.',
+      link: '',
+    },
+    {
+      referencia:
+        'Urgencias y emergencias médicas tanto para el personal paramédico y médico. (2016). Evaluación de la escena por un primer respondiente.',
+      link:
+        'http://urgenciasyemergenciasmedicas.blogspot.com.co/2013/01/3-evaluacion-de-la-escena-por-un-primer.html',
     },
   ],
   creditos: [

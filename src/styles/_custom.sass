@@ -18,3 +18,65 @@
   100%
     transform: translateY(0px)
 
+
+//colores
+.fondo-color-sistema-h
+  background-color: $color-sistema-h
+.fondo-color-sistema-i
+  background-color: $color-sistema-i
+.fondo-color-acento-contenido
+  background-color: $color-acento-contenido
+
+//bordes
+.borde-8
+  border-radius: 8px
+.borde-20
+  border-radius: 20px
+
+//fondos
+.fondo-personalizado-1
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 108%
+    left: -4%
+    @media screen and (max-width: $bp-max-xl)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-lg)
+      width: 112%
+      left: -6%
+    @media screen and (max-width: $bp-max-md)
+      width: 116%
+      left: -8%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: 520px)
+      width: 120%
+      left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-repeat: no-repeat
+    background-position: top
+    background-size: cover
+  &.no-tam-full
+    &:before
+      left: 0 !important
+      width: 100% !important
+  &.pos-bottom
+    &:before
+      background-position: bottom
+  &.pos-full
+    &:before
+      background-size: 100%
+      @media screen and (max-width: $bp-max-md)
+        background-size: cover
+  &.f1
+    &:before
+      background: rgb(234,243,253)
+      background: linear-gradient(180deg, rgba(234,243,253,0) 0%, rgba(234,243,253,1) 25%, rgba(238,250,209,1) 75%, rgba(238,250,209,0) 100%)
+  &__contenido
+    position: relative

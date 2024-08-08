@@ -15,111 +15,269 @@ export default {
   components: { Actividad },
   data: () => ({
     cuestionario: {
-      tema: 'Manejo de los residuos sólidos en la producción avícola.',
+      tema: 'Primeros auxilios',
       titulo: 'Cuestionario',
       introduccion:
-        'Lea cada enunciado y luego seleccione la respuesta correcta según corresponda.',
+        'Evaluar el conocimiento de los estudiantes sobre los conceptos básicos de primeros auxilios, incluyendo la valoración inicial del paciente.',
       barajarPreguntas: false,
       preguntas: [
         {
           id: 1,
           texto:
-            'Cuáles son los tipos de explotación en los sistemas productivos avícolas:',
+            '¿Cuál es la posición anatómica de un paciente en decúbito supino?',
           imagen: require('@/assets/componentes/pregunta_1.svg'),
           barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Explotación intensiva', esCorrecta: false },
-            { id: 'b', texto: 'Explotación semi intensiva', esCorrecta: false },
+            { id: 'a', texto: 'Boca abajo.', esCorrecta: false },
+            { id: 'b', texto: 'Boca arriba.', esCorrecta: true },
             {
               id: 'c',
-              texto: 'Explotación extensiva o traspatio',
+              texto: 'De lado.',
               esCorrecta: false,
             },
-            { id: 'd', texto: 'Todas la anteriores', esCorrecta: true },
+            { id: 'd', texto: 'Sentado.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
         },
         {
           id: 2,
           texto:
-            'Se lanzan dos proyectiles desde el suelo con la misma velocidad inicial, pero uno se lanza horizontalmente y el otro se lanza formando un ángulo de 45 grados con la horizontal. Considerando la resistencia del aire despreciable, ¿cuáles de las siguientes afirmaciones son verdaderas?',
+            '¿Qué indica la frecuencia cardíaca por debajo de los valores normales?',
           imagen: require('@/assets/componentes/pregunta_2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Ambos proyectiles alcanzarán la misma altura máxima.',
+              texto: 'Taquicardia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Bradicardia.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Taquipnea.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Hipertensión.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 3,
+          texto: '¿Cuál es el valor normal de la temperatura corporal?',
+          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          opciones: [
+            { id: 'a', texto: '34 º a 35 ºC.', esCorrecta: false },
+            { id: 'b', texto: '37 º a 38 ºC.', esCorrecta: false },
+            { id: 'c', texto: '36 º a 37 ºC.', esCorrecta: true },
+            { id: 'd', texto: '39 º a 40 ºC.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 4,
+          texto:
+            '¿Qué letra del método ABCDE se refiere a la apertura de la vía aérea y control de columna cervical?',
+          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'A.', esCorrecta: false },
+            { id: 'b', texto: 'B.', esCorrecta: true },
+            { id: 'c', texto: 'C.', esCorrecta: false },
+            { id: 'd', texto: 'D.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 5,
+          texto: '¿Cuál es la técnica correcta para tomar el pulso?',
+          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          opciones: [
+            { id: 'a', texto: 'Usar el dedo pulgar.', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Palpar una arteria con los dedos índice y medio.',
+              esCorrecta: true,
+            },
+            { id: 'c', texto: 'Usar el dorso de la mano.', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Colocar la mano sobre el pecho.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 6,
+          texto: '¿Qué significa la posición anatómica lateral de seguridad?',
+          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Paciente sobre cualquiera de sus laterales.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Paciente boca abajo.',
+              esCorrecta: false,
+            },
+            { id: 'c', texto: 'Paciente boca arriba.', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Paciente sentado.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 7,
+          texto: '¿Cuál es la frecuencia respiratoria normal para un adulto?',
+          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          opciones: [
+            {
+              id: 'a',
+              texto: '8 a 12 respiraciones por minuto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: '20 a 24 respiraciones por minuto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: '16 a 20 respiraciones por minuto.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: '10 a 14 respiraciones por minuto.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 8,
+          texto: '¿Qué función principal cumple el sistema óseo?',
+          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Producción de hormonas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Soporte y protección del cuerpo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Regulación de la temperatura.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Transporte de nutrientes.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 9,
+          texto:
+            '¿Qué hacer si un paciente no responde a estímulos durante la evaluación primaria?',
+          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Iniciar RCP.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Esperar a que recupere la conciencia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Administrar medicamentos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Elevar las piernas del paciente.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 10,
+          texto: '¿Cuál es la técnica para medir la presión arterial?',
+          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Usar únicamente el estetoscopio.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'El proyectil lanzado horizontalmente recorrerá una distancia horizontal mayor que el proyectil lanzado a 45 grados',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto:
-                'La velocidad horizontal del proyectil lanzado a 45 grados será mayor que la velocidad horizontal del proyectil lanzado horizontalmente.',
+                'Colocar el brazalete dos dedos arriba del pliegue del codo.',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto: 'Tomar la presión en la pierna.',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto:
-                'La velocidad total del proyectil lanzado a 45 grados en el punto más alto de su trayectoria será la misma que la velocidad horizontal del proyectil lanzado horizontalmente en cualquier punto de su trayectoria.',
+              texto: 'Contar los latidos del corazón.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto:
-            '¡Perfecto! Has seleccionado la respuesta correcta.',
-          mensaje_incorrecto: 'Esa no es la respuesta correcta. ¡Ánimo!',
-        },
-        {
-          id: 3,
-          texto: 'Texto de la tercera pregunta 3',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
-          opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: true },
-          ],
-          mensaje_correcto: '¡Muy bien! Esa es la respuesta correcta.',
-          mensaje_incorrecto: 'Respuesta incorrecta. ¡Inténtalo de nuevo!',
-        },
-        {
-          id: 4,
-          texto: 'Texto de la cuarta pregunta 4',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: true },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
-        },
-        {
-          id: 5,
-          texto: 'Texto de la quinta pregunta 5',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
-          opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: true },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
         },
       ],
       mensaje_final_aprobado:
-        '¡Has completado el cuestionario exitosamente! Felicidades.',
+        '¡Excelente! Te felicito, has superado la actividad.',
       mensaje_final_reprobado:
-        'No has alcanzado la puntuación mínima para aprobar. Te animamos a intentarlo de nuevo.',
+        'Te recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
   computed: {},

@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Atención básica al lesionado: protocolos y acciones iniciales**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF3_32330007_ACCIONES_BASICAS_ATENCION_SALUD/#/](https://ecored-sena.github.io/CF3_32330007_ACCIONES_BASICAS_ATENCION_SALUD/#/)
 
 #
 
