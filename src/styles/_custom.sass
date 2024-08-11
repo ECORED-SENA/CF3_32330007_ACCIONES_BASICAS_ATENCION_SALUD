@@ -24,8 +24,29 @@
   background-color: $color-sistema-h
 .fondo-color-sistema-i
   background-color: $color-sistema-i
+.fondo-color-sistema-j
+  background-color: $color-sistema-j
+.fondo-color-sistema-k
+  background-color: $color-sistema-k
+.fondo-color-sistema-l
+  background-color: $color-sistema-l
+.fondo-color-sistema-m
+  background-color: $color-sistema-m
+.fondo-color-sistema-n
+  background-color: $color-sistema-n
+.fondo-color-sistema-o
+  background-color: $color-sistema-o
+.fondo-color-sistema-p
+  background-color: $color-sistema-p
 .fondo-color-acento-contenido
   background-color: $color-acento-contenido
+.fondo-color-secundario
+  background-color: $color-secundario
+.fondo-color-primario
+  background-color: $color-primario
+
+.c-color-secundario
+  color: $color-secundario
 
 //bordes
 .borde-8
@@ -74,9 +95,139 @@
       background-size: 100%
       @media screen and (max-width: $bp-max-md)
         background-size: cover
+  &.bottom-1
+    &:before
+      bottom: 110px
+  &.bottom-2
+    &:before
+      bottom: 55px
   &.f1
     &:before
       background: rgb(234,243,253)
       background: linear-gradient(180deg, rgba(234,243,253,0) 0%, rgba(234,243,253,1) 25%, rgba(238,250,209,1) 75%, rgba(238,250,209,0) 100%)
+  &.f2
+    &:before
+      background-image: url(../assets/curso/temas/4.png)
+  &.f3
+    &:before
+      background: rgb(246,252,231)
+      background: linear-gradient(0deg, rgba(246,252,231,1) 0%, rgba(255,255,255,0) 100%)
+  &.f4
+    &:before
+      background: rgb(255,246,241)
+      background: linear-gradient(0deg, rgba(255,246,241,1) 0%, rgba(255,255,255,0) 100%)
+  &.f5
+    &:before
+      background-image: url(../assets/curso/temas/33.png)
   &__contenido
     position: relative
+
+//slyders personalizados    
+.slider-personalizado-1
+  .slyder-a__btn--sigt,.slyder-a__btn--atrs
+    background-color: $color-acento-botones
+  .slyder-a__bullets__item
+    opacity: 0.35
+    background-color: $color-acento-contenido
+    border: none !important
+    &--active
+      opacity: 1 !important
+
+.slider-personalizado-2
+  .slyder-f__btn
+    position: relative
+    *
+      position: relative
+    i
+      color: $color-sistema-texto !important
+    &:before
+      content: ""
+      background-color: $color-acento-botones
+      position: absolute
+      height: 50px
+      width: 50px
+      z-index: 0
+      border-radius: 50%
+      @media screen and (max-width: 576px)
+        width: 30px
+        height: 30px
+    i
+      font-size: 1.2rem
+      color: $white
+
+//acordion
+.acordion-personalizado-1
+  .tarjeta
+    .acordion__header
+      margin-bottom: 0.7rem !important
+    padding-right: 1rem !important
+    padding-left: 1rem !important
+    padding-top: 0.7rem !important
+    border-radius: 10px
+    background-color: $color-sistema-j
+    &.acordion__activo
+      background-color: $color-sistema-k
+  .acordion__accion__btn--a
+    width: 50px
+    height: 50px
+    background-color: $color-acento-botones !important
+    color: $black
+
+//titulos
+.titulo-decorativo
+  position: relative
+  display: inline-flex
+  align-items: center
+  &::before
+    content: ""
+    position: absolute
+    background-color: $color-acento-contenido
+    top: 8px
+    bottom: 7px
+    left: 10px
+    right: 0
+    z-index: 0
+    border-top-right-radius: 20px
+    border-bottom: 4px solid $white
+  .cont-text 
+    position: relative
+    h3
+      margin: 0
+      padding: 0.5rem 0 
+      margin-left: 0.5rem
+      margin-right: 1.5rem
+      @media screen and (max-width: $bp-max-xs)
+        margin-right: 0.5rem
+        padding: 1rem 0
+
+  .cont-figura
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16)
+    -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16)
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16)
+    position: relative
+    display: inline-flex
+    border-radius: 50%
+    width: 60px
+    height: 60px
+    min-width: 60px
+    min-height: 60px
+    justify-content: center
+    align-items: center
+    align-content: center
+    background-color: $color-secundario
+    img
+      max-width: 40px
+      margin-top: 0.2rem
+
+//listas
+.lista-p-1
+  li
+    display: flex
+    div
+      width: 16px
+      min-width: 16px
+
+//otros
+.cont_2_1
+  width: 82px
+  height: 82px
