@@ -2,16 +2,16 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido.mb-0
+    .titulo-principal.color-acento-contenido.mb-0(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Soporte Vital Básico en el adulto
     
     .fondo-personalizado-1.bottom-1.f3
       .fondo-personalizado-1__contenido.pt-5
-        p.mb-5 El Soporte Vital Básico (SVB) son aquellas acciones que se realizan ante una persona con paro cardio-respiratorio, con el fin de mantener esas funciones hasta la llegada del personal de salud.
+        p.mb-5(data-aos="fade") El Soporte Vital Básico (SVB) son aquellas acciones que se realizan ante una persona con paro cardio-respiratorio, con el fin de mantener esas funciones hasta la llegada del personal de salud.
 
-        .row.justify-content-center.mb-5
+        .row.justify-content-center.mb-5(data-aos="flip-up")
           .col-lg-10
             .fondo-color-sistema-i.p-4.p-lg-5.borde-8
               .row.align-items-center 
@@ -43,9 +43,9 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/45.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Los pacientes que sufren un paro cardiaco fuera de un centro de salud dependen de los primeros auxilios que les preste la comunidad en el sitio. Cuando la comunidad detecta lo que está ocurriendo, pide ayuda, inicia la Reanimación Cardio Pulmonar (RCP) hasta que la ayuda llegue al sitio y traslade al paciente a un servicio de urgencias de un centro hospitalario de tercer nivel para la atención adecuada. En caso de un paro respiratorio o un paro cardíaco, el tiempo de atención es de cuatro minutos; después de este tiempo, el cerebro empieza a presentar lesiones irreversibles.
+            p.mb-0(data-aos="fade-left") Los pacientes que sufren un paro cardiaco fuera de un centro de salud dependen de los primeros auxilios que les preste la comunidad en el sitio. Cuando la comunidad detecta lo que está ocurriendo, pide ayuda, inicia la Reanimación Cardio Pulmonar (RCP) hasta que la ayuda llegue al sitio y traslade al paciente a un servicio de urgencias de un centro hospitalario de tercer nivel para la atención adecuada. En caso de un paro respiratorio o un paro cardíaco, el tiempo de atención es de cuatro minutos; después de este tiempo, el cerebro empieza a presentar lesiones irreversibles.
 
-    .titulo-decorativo.my-5
+    .titulo-decorativo.my-5(data-aos="fade-right")
       .cont-figura
         img(src="@/assets/curso/temas/img-tit-dec.svg")
       .cont-text 
@@ -53,7 +53,7 @@
     
     .fondo-personalizado-1.f5.mb-4
       .fondo-personalizado-1__contenido.py-4
-        .row.align-items-center 
+        .row.align-items-center(data-aos="zoom-in-out")
           .col-lg-3
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/46.png",style="max-width: 295px;")
@@ -84,9 +84,9 @@
                   h2.c-color-acento-contenido.mb-0 6
                 p.mb-0.text-start Cada dos minutos verifique la respiración y el pulso. Siempre termine los ciclos con las 2 ventilaciones.
     
-    p.mb-4 Continúe las maniobras hasta cuándo:
+    p.mb-4(data-aos="fade") Continúe las maniobras hasta cuándo:
 
-    .row.justify-content-center 
+    .row.justify-content-center(data-aos="fade-left")
       .col-lg-4.col-md-6.mb-4
         .fondo-color-sistema-q.p-4.p-lg-5.borde-8.h-100
           figure.mb-3
@@ -103,7 +103,7 @@
             img.mx-auto(src="@/assets/curso/temas/49.svg",style="max-width: 254px;")
           p.text-center.fw-bold Esté usted cansado y sienta que ya no está en capacidad para continuar las maniobras.
 
-    p.mb-0 Si las maniobras de reanimación han sido realizadas de manera correcta, pueden mantenerse los órganos vitales por tiempo suficiente hasta que llegue la ayuda.
+    p.mb-0(data-aos="fade") Si las maniobras de reanimación han sido realizadas de manera correcta, pueden mantenerse los órganos vitales por tiempo suficiente hasta que llegue la ayuda.
 
 
 

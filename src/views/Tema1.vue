@@ -157,7 +157,31 @@
 
     p.mb-4(data-aos="fade") El sistema óseo es una parte esencial del cuerpo humano, desempeñando roles cruciales que van más allá de proporcionar soporte y estructura. Comprender sus funciones principales nos ayuda a apreciar su importancia en el mantenimiento de la salud y la protección de órganos vitales.
 
-    p(style="color: red;") Falta slide CF03_1.4_Funciones principales del sistema óseo
+    .fondo-personalizado-1.f2.mb-5(data-aos="flip-up")
+      .fondo-personalizado-1__contenido.py-5
+        .bg-white.borde-20.p-4
+          PasosB.pasos-personalizado-1
+            .row.justify-content-center.pt-lg-4(titulo="Soporte")
+              .col-lg-6.mb-4.mb-lg-0
+                p.mb-4.fw-bold Soporte
+                p.mb-0.me-lg-5.pe-lg-5 Los huesos proporcionan la forma al cuerpo y una estructura rígida que sostiene los músculos, permitiendo el movimiento y la postura.
+              .col-lg-5
+                figure
+                  img.mx-auto(src="@/assets/curso/temas/50.png",style="max-width: 399px;")
+            .row.justify-content-center.pt-lg-4(titulo="Protección")
+              .col-lg-6.mb-4.mb-lg-0
+                p.mb-4.fw-bold Protección
+                p.mb-0.me-lg-5.pe-lg-5 Los huesos protegen los órganos internos vitales, como el cerebro, los pulmones y el corazón, resguardándolos de lesiones externas.
+              .col-lg-5
+                figure
+                  img.mx-auto(src="@/assets/curso/temas/51.png",style="max-width: 399px;")
+            .row.justify-content-center.pt-lg-4(titulo="Producción")
+              .col-lg-6.mb-4.mb-lg-0
+                p.mb-4.fw-bold Producción
+                p.mb-0.me-lg-5.pe-lg-5 Los huesos son responsables de la producción de células sanguíneas, incluyendo glóbulos rojos, blancos y plaquetas, a través de un proceso conocido como hematopoyesis, que ocurre en la médula ósea.
+              .col-lg-5
+                figure
+                  img.mx-auto(src="@/assets/curso/temas/52.png",style="max-width: 399px;")
 
     Separador
 

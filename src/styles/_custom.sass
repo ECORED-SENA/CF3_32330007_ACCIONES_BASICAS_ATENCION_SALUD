@@ -309,7 +309,60 @@
       width: 16px
       min-width: 16px
 
+//pasos
+.pasos-personalizado-1
+  .pasos-b__header__item__line-container
+    order: 1
+    margin-bottom: 0
+  .pasos-b__header__item__tittle
+    margin-bottom: 10px
+  .pasos-b__header__item:first-child
+    .pasos-b__header__item__line-container:before
+      background-color: transparent
+  .pasos-b__header__item__line-container:after,.pasos-b__header__item__line-container:before
+    background-color: #CCCCCC
+  .pasos-b__header__item--before
+    .pasos-b__header__item__line-container:after,.pasos-b__header__item__line-container:before
+      background-color: $color-secundario
+    .pasos-b__header__item__dot
+      background-color: transparent
+      border: 3px solid $color-secundario
+      i
+        display: none
+  .pasos-b__header__item--active
+    .pasos-b__header__item__dot
+      background-color: $white
+      border-color: $color-secundario
+      align-content: center
+      &:before
+        content: ""
+        width: 10px
+        height: 10px
+        background-color: $color-secundario
+        display: flex
+        border-radius: 50%
+        margin: auto
+    .pasos-b__header__item__line-container:before
+      background-color: $color-secundario
+  .pasos-b__header__item__dot
+    min-width: 22px
+    min-height: 22px
+    max-width: 22px
+    max-height: 22px
+    background-color: white
+    span
+      display: none
+  .pasos-b__header__btn--right,.pasos-b__header__btn--left
+    background-color: $color-acento-botones
+
 //otros
 .cont_2_1
   width: 82px
   height: 82px
+
+.tarjeta-audio-p-1
+  background-color: $color-sistema-l
+  border-color: $color-primario !important
+  border-radius: 15px
+  .tarjeta-audio__texto
+    color: $color-sistema-texto !important
