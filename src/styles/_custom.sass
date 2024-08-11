@@ -2,14 +2,48 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    left: 2%
+    top: 27%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    bottom: 4%
+    right: 20%
+  &-3
+    animation: float1 3s ease-in-out infinite alternate
+    position: absolute
+    top: 10%
+    right: 4%
+  &-4
+    animation: float1 2.5s ease-in-out infinite alternate
+    position: absolute
+    left: -40px
+    top: 22%
+    z-index: -1
+  &-5
+    animation: float1 2s ease-in-out infinite alternate
+    position: absolute
+    right: -6%
+    bottom: 15%
+    z-index: -1
+  &-6
+    animation: float1 1.5s ease-in-out infinite alternate
+    position: absolute
+    left: 25%
+    bottom: 4%
+    z-index: -1
+  &-7
+    animation: float1 1s ease-in-out infinite alternate
+    position: absolute
+    top: -3%
+    left: 5%
+    z-index: 0
 
+.banner-interno
+  height: 160px
+  .banner-interno__fondo
+    background-position: right bottom
+    background-image: url(../assets/curso/fondo_tema.png) !important
 
 @keyframes float1
   0%
@@ -18,6 +52,43 @@
   100%
     transform: translateY(0px)
 
+//Banners
+.banner-principal__row .banner-principal__img
+  @media screen and (min-width: 576px)
+    padding-right: 0 !important
+.banner-principal__img
+  position: relative
+  padding: 0px !important
+  margin-top: 2rem
+  margin-bottom: 0.6rem
+
+  &::before
+    content: ""
+    position: absolute
+    background: rgba(255, 255, 255, 0)
+    z-index: 0
+    top: 20px
+    left: 0
+    right: 0
+    bottom: 0
+    border: 1px solid white
+    border-radius: 20px
+    backdrop-filter: blur(13px)
+    -webkit-backdrop-filter: blur(13px)
+    filter: brightness(108%)
+
+  img
+    position: relative
+    margin: 0 auto
+    max-width: 297px
+.banner-principal .tarjeta
+  z-index: -10
+  background-position: inherit
+  @media screen and (min-width: $bp-max-md)
+    padding-right: 3rem
+    background-image: url(../assets/curso/portada/fondo-banner-principal-md.png) !important
+  @media screen and (max-width: $bp-max-xs)
+    background-image: url(../assets/curso/portada/fondo-banner-principal-movil.png) !important
 
 //colores
 .fondo-color-sistema-h
@@ -40,6 +111,8 @@
   background-color: $color-sistema-p
 .fondo-color-sistema-q
   background-color: $color-sistema-q
+.fondo-color-sistema-r
+  background-color: $color-sistema-r
 .fondo-color-acento-contenido
   background-color: $color-acento-contenido
 .fondo-color-secundario
@@ -55,8 +128,13 @@
 //bordes
 .borde-8
   border-radius: 8px
+.borde-10
+  border-radius: 10px
 .borde-20
   border-radius: 20px
+
+.no-borde
+  border: none !important
 
 //fondos
 .fondo-personalizado-1

@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido.mb-0
+    .titulo-principal.color-acento-contenido.mb-0(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Fundamentos básicos de anatomía
@@ -11,9 +11,9 @@
       .fondo-personalizado-1__contenido.py-5
         .row.mb-4 
           .col-lg-8.mb-4.mb-lg-0
-            p.mb-0 La anatomía y la fisiología son esenciales en el estudio del cuerpo humano, ya que nos permiten entender tanto su estructura como su funcionamiento. Estos conocimientos son vitales para los profesionales de la salud, facilitando una correcta identificación y tratamiento de diversas condiciones médicas. La posición anatómica es una referencia estándar crucial para describir y localizar estructuras corporales con precisión.
+            p.mb-0(data-aos="fade-right") La anatomía y la fisiología son esenciales en el estudio del cuerpo humano, ya que nos permiten entender tanto su estructura como su funcionamiento. Estos conocimientos son vitales para los profesionales de la salud, facilitando una correcta identificación y tratamiento de diversas condiciones médicas. La posición anatómica es una referencia estándar crucial para describir y localizar estructuras corporales con precisión.
           .col-lg-4
-            figure
+            figure(data-aos="fade-left")
               img.mx-auto(src="@/assets/curso/temas/3.png",style="max-width: 400px;")
         
         .fondo-personalizado-1.f2.mb-4(data-aos="flip-up")
@@ -44,27 +44,27 @@
     
     .fondo-personalizado-1.f4
       .fondo-personalizado-1__contenido.py-4
-        #t_1_1.titulo-segundo.color-acento-contenido
+        #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 1.1 Introducción a las posturas anatómicas
 
-        p.mb-4 Las posturas anatómicas son fundamentales en la medicina, ya que permiten una evaluación y tratamiento adecuados del paciente en diversas situaciones clínicas. Comprender estas posiciones es crucial para realizar procedimientos médicos, evaluar lesiones y garantizar la seguridad del paciente durante el cuidado.
+        p.mb-4(data-aos="fade") Las posturas anatómicas son fundamentales en la medicina, ya que permiten una evaluación y tratamiento adecuados del paciente en diversas situaciones clínicas. Comprender estas posiciones es crucial para realizar procedimientos médicos, evaluar lesiones y garantizar la seguridad del paciente durante el cuidado.
 
         .row.justify-content-center
-          .col-lg-3
+          .col-lg-3(data-aos="fade-up")
             .fondo-color-sistema-i.borde-8.p-3.h-100
               p.mb-4.text-center.fw-bold Posición decúbito supino o decúbito dorsal
               .bg-white.borde-8.mb-4.p-4.py-5
                 figure
                   img.mx-auto(src="@/assets/curso/temas/8.svg",style="max-width: 177px;")
               p.mb-3 Paciente en posición boca arriba.
-          .col-lg-3
+          .col-lg-3(data-aos="fade-down")
             .fondo-color-sistema-i.borde-8.p-3.h-100
               p.mb-4.text-center.fw-bold Posición decúbito prono o decúbito ventral
               .bg-white.borde-8.mb-4.p-4.py-5
                 figure
                   img.mx-auto(src="@/assets/curso/temas/9.svg",style="max-width: 177px;")
               p.mb-3 Paciente boca abajo o con su cara y su parte anterior contra el piso.
-          .col-lg-3
+          .col-lg-3(data-aos="fade-up")
             .fondo-color-sistema-i.borde-8.p-3.h-100
               p.mb-4.text-center.fw-bold Posición lateral de seguridad derecha o izquierda
               .bg-white.borde-8.mb-4.p-4.py-5
@@ -76,19 +76,19 @@
 
     .fondo-personalizado-1.f4
       .fondo-personalizado-1__contenido.py-5
-        #t_1_2.titulo-segundo.color-acento-contenido
+        #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade")
           h2 1.2 Ubicación de los órganos abdominales
         
-        p.mb-4 Los primeros respondientes deben conocer la posición de los órganos ubicados en cada cuadrante o región del abdomen, lo que facilita sospechar sobre una posible lesión.
+        p.mb-4(data-aos="fade") Los primeros respondientes deben conocer la posición de los órganos ubicados en cada cuadrante o región del abdomen, lo que facilita sospechar sobre una posible lesión.
 
-        .titulo-sexto.color-acento-contenido.mb-4
+        .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
           p.mb-0 #[b Figura 1.] Posición de los órganos en los cuadrantes
 
         .row.align-items-center 
           .col-lg-6
-            figure.mb-4.mb-lg-0
+            figure.mb-4.mb-lg-0(data-aos="fade-right")
               img.mx-auto(src="@/assets/curso/temas/11.svg",style="max-width: 610px;",alt="Imagen que muestra los cuatro cuadrantes del abdomen: cuadrante superior derecho, cuadrante superior izquierdo, cuadrante inferior derecho y cuadrante inferior izquierdo, con una representación del sistema digestivo.")
-          .col-lg-6
+          .col-lg-6(data-aos="zoom-in-out")
             AcordionA.acordion-personalizado-1(tipo="a" clase-tarjeta="tarjeta")
               .div(titulo="Cuadrante superior derecho")
                 .ps-md-5.ms-md-3
@@ -107,13 +107,13 @@
 
     .fondo-personalizado-1.f4
       .fondo-personalizado-1__contenido.pb-5
-        #t_1_3.titulo-segundo.color-acento-contenido
+        #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade")
           h2 1.3 El esqueleto humano
         
-        p.mb-4 El cuerpo humano contiene aproximadamente 206 huesos que se clasifican en largos, cortos y planos según su forma.
+        p.mb-4(data-aos="fade-left") El cuerpo humano contiene aproximadamente 206 huesos que se clasifican en largos, cortos y planos según su forma.
 
         .row.align-items-center.mb-4
-          .col-lg-7
+          .col-lg-7(data-aos="fade-down")
             .row.mb-2
               .col-md-auto.pe-md-0
                 .fondo-color-sistema-l.h-100.align-content-center
@@ -143,19 +143,19 @@
                   p.mb-2.fw-bold Huesos planos
                   p Suelen ser delgados y compactos, como el esternón, el iliaco, las costillas y la escápula.
 
-          .col-lg-5.order-first.order-lg-last
+          .col-lg-5.order-first.order-lg-last(data-aos="fade-left")
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/15.png",style="max-width: 505px;")
         
-        .fondo-color-sistema-i.p-4.p-lg-5
+        .fondo-color-sistema-i.p-4.p-lg-5(data-aos="flip-up")
           p.mb-0 Estos huesos se unen unos con otros en las articulaciones por medio de los ligamentos, todo este sistema óseo y de uniones está recubierto por músculos que se insertan en los huesos por medio de los tendones.
     
     Separador
 
-    #t_1_4.titulo-segundo.color-acento-contenido.mb-4
+    #t_1_4.titulo-segundo.color-acento-contenido.mb-4(data-aos="fade-left")
       h2 1.4 Funciones principales del sistema óseo
 
-    p.mb-4 El sistema óseo es una parte esencial del cuerpo humano, desempeñando roles cruciales que van más allá de proporcionar soporte y estructura. Comprender sus funciones principales nos ayuda a apreciar su importancia en el mantenimiento de la salud y la protección de órganos vitales.
+    p.mb-4(data-aos="fade") El sistema óseo es una parte esencial del cuerpo humano, desempeñando roles cruciales que van más allá de proporcionar soporte y estructura. Comprender sus funciones principales nos ayuda a apreciar su importancia en el mantenimiento de la salud y la protección de órganos vitales.
 
     p(style="color: red;") Falta slide CF03_1.4_Funciones principales del sistema óseo
 
@@ -163,16 +163,16 @@
 
     .fondo-personalizado-1.f4.mb-5
       .fondo-personalizado-1__contenido.pt-4.pb-5
-        #t_1_5.titulo-segundo.color-acento-contenido
+        #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-up")
           h2 1.5 Cartílagos, tendones y ligamentos
 
-        p.mb-4 El sistema musculoesquelético incluye diversas estructuras que desempeñan funciones esenciales en el movimiento y la estabilidad del cuerpo. Entre ellas, los cartílagos, tendones y ligamentos son fundamentales para el correcto funcionamiento de las articulaciones y la protección de los huesos.
+        p.mb-4(data-aos="fade-up") El sistema musculoesquelético incluye diversas estructuras que desempeñan funciones esenciales en el movimiento y la estabilidad del cuerpo. Entre ellas, los cartílagos, tendones y ligamentos son fundamentales para el correcto funcionamiento de las articulaciones y la protección de los huesos.
 
         .row
-          .col-lg-6
+          .col-lg-6(data-aos="fade-right")
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/16.png",style="max-width: 610px;")
-          .col-lg-6
+          .col-lg-6(data-aos="fade-left")
             AcordionA.acordion-personalizado-1(tipo="a" clase-tarjeta="tarjeta")
               .div(titulo="Cartílagos")
                 .ps-md-5.ms-md-3

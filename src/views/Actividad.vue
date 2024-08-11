@@ -45,7 +45,7 @@ export default {
           id: 2,
           texto:
             '¿Qué indica la frecuencia cardíaca por debajo de los valores normales?',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
+          imagen: require('@/assets/componentes/pregunta_2.svg'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -76,7 +76,7 @@ export default {
         {
           id: 3,
           texto: '¿Cuál es el valor normal de la temperatura corporal?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_3.svg'),
           opciones: [
             { id: 'a', texto: '34 º a 35 ºC.', esCorrecta: false },
             { id: 'b', texto: '37 º a 38 ºC.', esCorrecta: false },
@@ -91,7 +91,7 @@ export default {
           id: 4,
           texto:
             '¿Qué letra del método ABCDE se refiere a la apertura de la vía aérea y control de columna cervical?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_4.svg'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'A.', esCorrecta: false },
@@ -106,7 +106,7 @@ export default {
         {
           id: 5,
           texto: '¿Cuál es la técnica correcta para tomar el pulso?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_1.svg'),
           opciones: [
             { id: 'a', texto: 'Usar el dedo pulgar.', esCorrecta: false },
             {
@@ -128,7 +128,7 @@ export default {
         {
           id: 6,
           texto: '¿Qué significa la posición anatómica lateral de seguridad?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_2.svg'),
           opciones: [
             {
               id: 'a',
@@ -154,7 +154,7 @@ export default {
         {
           id: 7,
           texto: '¿Cuál es la frecuencia respiratoria normal para un adulto?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_3.svg'),
           opciones: [
             {
               id: 'a',
@@ -184,7 +184,7 @@ export default {
         {
           id: 8,
           texto: '¿Qué función principal cumple el sistema óseo?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_4.svg'),
           opciones: [
             {
               id: 'a',
@@ -215,7 +215,7 @@ export default {
           id: 9,
           texto:
             '¿Qué hacer si un paciente no responde a estímulos durante la evaluación primaria?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_1.svg'),
           opciones: [
             {
               id: 'a',
@@ -245,7 +245,7 @@ export default {
         {
           id: 10,
           texto: '¿Cuál es la técnica para medir la presión arterial?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_2.svg'),
           opciones: [
             {
               id: 'a',
