@@ -203,7 +203,7 @@ export default {
     {
       tema: 'Soporte Vital Básico en el adulto',
       referencia:
-        'Carmona Romera, A. B. & Rivas Hidalgo, A. M. (2022). Soporte Vital Básico. SANT0108: (1 ed.). (Leer  Capitulo 1)) IC Editorial.',
+        'Carmona Romera, A. B. & Rivas Hidalgo, A. M. (2022). Soporte Vital Básico. SANT0108: (1 ed.). (Leer  Capitulo 1) IC Editorial.',
       tipo: 'Libro',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/225085',
@@ -255,7 +255,7 @@ export default {
     },
     {
       termino: 'SVB',
-      significado: 'Soporte Vital Básico.',
+      significado: '<span class="text-capitalize">Soporte<span> Vital Básico.',
     },
   ],
   referencias: [
@@ -311,12 +311,12 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
+          cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
           nombre: 'Olga Constanza Bermúdez Jaimes',
-          cargo: 'Responsable de Línea de Producción',
+          cargo: 'Responsable de línea de producción',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -326,12 +326,12 @@ export default {
       autores: [
         {
           nombre: 'Luz María Cardona Correa',
-          cargo: 'Experta Temática',
+          cargo: 'Experta temática',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Paola Alexandra Moya Peralta',
-          cargo: 'Evaluadora Instruccional',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -341,12 +341,12 @@ export default {
       autores: [
         {
           nombre: 'Carlos Julián Ramírez Benítez',
-          cargo: 'Diseñador de Contenidos Digitales',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Edwin Sneider Velandia Suarez',
-          cargo: 'Desarrollador Fullstack',
+          cargo: 'Desarrollador <em>fullstack</em>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -354,6 +354,11 @@ export default {
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
+        {
+          nombre: 'Luis Gabriel Urueta Alvarez',
+          cargo: 'Validador de recursos educativos digitales',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
         {
           nombre: 'Margarita Marcela Medrano Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',

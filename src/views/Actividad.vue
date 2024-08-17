@@ -94,8 +94,8 @@ export default {
           imagen: require('@/assets/componentes/pregunta_4.svg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'A.', esCorrecta: false },
-            { id: 'b', texto: 'B.', esCorrecta: true },
+            { id: 'a', texto: 'A.', esCorrecta: true },
+            { id: 'b', texto: 'B.', esCorrecta: false },
             { id: 'c', texto: 'C.', esCorrecta: false },
             { id: 'd', texto: 'D.', esCorrecta: false },
           ],

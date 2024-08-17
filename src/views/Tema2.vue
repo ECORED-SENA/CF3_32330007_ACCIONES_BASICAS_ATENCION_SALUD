@@ -336,7 +336,7 @@
                 li
                   div.me-2.pt-1
                     img(src="@/assets/curso/temas/28.svg",style="max-width: 16px;")
-                  span Retire el termómetro y mire hasta donde subió la columna de mercurio. Si es digital, lea el número que aparece en el recuadro.
+                  span Retire el termómetro y mire hasta dónde subió la columna de mercurio. Si es digital, lea el número que aparece en el recuadro.
         
         p.mb-4.fw-bold.pt-4(data-aos="fade-left") Se presentan alteraciones de la temperatura, tales como:
 
@@ -384,7 +384,7 @@
               .borde-8.p-4.fondo-color-secundario.text-center.h-100
                 .d-inline-flex.rounded-circle.fondo-color-sistema-o.align-items-center.justify-content-center.mb-5(style="height: 53px;width: 53px;")
                   h2.c-color-secundario.mb-0 D
-                p.mb-0 Se determina estado de conciencia ubicándolo con método ADVI.
+                p.mb-0 Se determina estado de conciencia, ubicándolo con método ADVI.
               .borde-8.p-4.fondo-color-secundario.text-center.h-100
                 .d-inline-flex.rounded-circle.fondo-color-sistema-o.align-items-center.justify-content-center.mb-5(style="height: 53px;width: 53px;")
                   h2.c-color-secundario.mb-0 E
@@ -501,7 +501,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/41.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0(data-aos="fade") Si no se percibe el pulso, coloque los dedos índice y medio y deslice en el cuello presionando firmemente hasta que localice el pulso carotideo. Cuando llega donde un paciente y no responde al llamado ni a ningún estímulo, se le toma el pulso carotideo, pensando en la posibilidad de que esté en paro cardiaco.
+            p.mb-0(data-aos="fade") Si no se percibe el pulso, coloque los dedos índice y medio y deslice en el cuello presionando firmemente hasta que localice el pulso carotídeo. Cuando llega donde un paciente y no responde al llamado ni a ningún estímulo, se le toma el pulso carotídeo, pensando en la posibilidad de que esté en paro cardiaco.
         
         .row.justify-content-center(data-aos="fade")
           .col-lg-10

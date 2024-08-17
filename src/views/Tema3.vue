@@ -24,11 +24,11 @@
                     li
                       div.me-2.pt-1
                         img(src="@/assets/curso/temas/28.svg",style="max-width: 16px;")
-                      span Alerta precoz: Llamar a los sistemas de emergencia.
+                      span Alerta precoz: llamar a los sistemas de emergencia.
                     li
                       div.me-2.pt-1
                         img(src="@/assets/curso/temas/28.svg",style="max-width: 16px;")
-                      span SVB precoz: Iniciar las técnicas de SVB lo antes posible.
+                      span SVB precoz: iniciar las técnicas de SVB lo antes posible.
                     li
                       div.me-2.pt-1
                         img(src="@/assets/curso/temas/28.svg",style="max-width: 16px;")
@@ -89,17 +89,17 @@
     .row.justify-content-center(data-aos="fade-left")
       .col-lg-4.col-md-6.mb-4
         .fondo-color-sistema-q.p-4.p-lg-5.borde-8.h-100
-          figure.mb-3
+          figure.min-h-custom
             img.mx-auto(src="@/assets/curso/temas/47.svg",style="max-width: 264px;")
           p.text-center.fw-bold La persona se recupere.
       .col-lg-4.col-md-6.mb-4
         .fondo-color-sistema-q.p-4.p-lg-5.borde-8.h-100
-          figure.mb-3
+          figure.min-h-custom
             img.mx-auto(src="@/assets/curso/temas/48.svg",style="max-width: 261px;")
           p.text-center.fw-bold Llegue la ayuda médica.
       .col-lg-4.col-md-6.mb-4
         .fondo-color-sistema-q.p-4.p-lg-5.borde-8.h-100
-          figure.mb-3
+          figure.min-h-custom
             img.mx-auto(src="@/assets/curso/temas/49.svg",style="max-width: 254px;")
           p.text-center.fw-bold Esté usted cansado y sienta que ya no está en capacidad para continuar las maniobras.
 

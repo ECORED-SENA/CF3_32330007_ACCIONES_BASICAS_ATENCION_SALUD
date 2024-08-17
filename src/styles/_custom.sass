@@ -366,3 +366,15 @@
   border-radius: 15px
   .tarjeta-audio__texto
     color: $color-sistema-texto !important
+
+.min-h-custom
+  min-height: 190px
+  @media screen and (max-width: $bp-max-xl)
+    min-height: 170px
+  @media screen and (max-width: $bp-max-lg)
+    min-height: 140px
+  @media screen and (max-width: $bp-max-md)
+    min-height: 185px
+  @media screen and (max-width: $bp-max-sm)
+    min-height: auto
+    margin-bottom: 1rem

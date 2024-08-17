@@ -37,7 +37,7 @@
                 .row.justify-content-center.pt-lg-4
                   .col-lg-6.mb-4.mb-lg-0
                     h4.mb-4 Posición anatómica
-                    p.mb-0 Es importante identificarla ya que es la base para reportar las lesiones, además de seguir el trayecto de los vasos sanguíneos y las partes óseas.
+                    p.mb-0 Es importante identificarla, ya que es la base para reportar las lesiones, además de seguir el trayecto de los vasos sanguíneos y las partes óseas.
                   .col-lg-5
                     figure
                       img.mx-auto(src="@/assets/curso/temas/7.png",style="max-width: 399px;")
