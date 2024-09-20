@@ -253,7 +253,7 @@
                   p.mb-3 Lo invitamos a escuchar el siguiente Pódcast:
                   TarjetaAudioPersonalizada.color-primario.tarjeta-audio-p-1.mb-3(
                     texto="Presión arterial (PA)"
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/componentes/audios/presion.mp3')"
                   )
 
           .col-lg-5.order-first.order-lg-last
