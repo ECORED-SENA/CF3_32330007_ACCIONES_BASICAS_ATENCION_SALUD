@@ -8,7 +8,7 @@
       .col-lg-10.mb-5
         .fondo-color-sistema-h.borde-20.p-4
           figure
-            img(src="@/assets/curso/temas/sintesis.svg", alt="La síntesis sobre  atención básica al lesionado que incluye valoración inicial del paciente, fundamentos de anatomía, signos vitales, valoración primaria (ABCDE) y soporte vital básico en el adulto. Se desglosan elementos como normas de bioseguridad, posiciones anatómicas, técnicas de medición de signos vitales y pasos para la reanimación cardiopulmonar (RCP).")
+            img(src="@/assets/curso/temas/sintesis.svg", alt="La síntesis sobre atención básica al lesionado que incluye valoración inicial del paciente, fundamentos de anatomía, signos vitales, valoración primaria (ABCDE) y soporte vital básico en el adulto. Se desglosan elementos como normas de bioseguridad, posiciones anatómicas, técnicas de medición de signos vitales y pasos para la reanimación cardiopulmonar (RCP).")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

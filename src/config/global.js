@@ -171,14 +171,6 @@ export default {
   },
   complementario: [
     {
-      tema: 'Fundamentos básicos de anatomía',
-      referencia:
-        'Chung, K. W. & Chung, H. M. (2008). <em>Anatomía</em>: (6 ed.). Wolters Kluwer Health. (Leer páginas 205-272)',
-      tipo: 'Libro',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/125453',
-    },
-    {
       tema: 'Frecuencia Cardiaca (FC)',
       referencia:
         'Revista del consumidor (PROFECO). (2013). <em>Resultados de laboratorio: Pulsómetros.</em>',
@@ -189,24 +181,16 @@ export default {
     {
       tema: 'Frecuencia respiratoria (FR)',
       referencia:
-        'VITAL SUPPORT SAS. (2021). ¿CÓMO TOMAR LA FRECUENCIA RESPIRATORIA?. [Archivo de video] Youtube.',
+        'VITAL SUPPORT SAS. (2021). ¿CÓMO TOMAR LA FRECUENCIA RESPIRATORIA?. [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/w1Z8CXwhm4o?feature=shared',
     },
     {
       tema: 'Presión arterial (PA)',
       referencia:
-        'DW Español (2023). ¿Cómo bajar la presión arterial de forma natural?. [Archivo de video] Youtube.',
+        'DW Español (2023). ¿Cómo bajar la presión arterial de forma natural?. [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/8SYSq051ej4?feature=shared',
-    },
-    {
-      tema: 'Soporte Vital Básico en el adulto',
-      referencia:
-        'Carmona Romera, A. B. & Rivas Hidalgo, A. M. (2022). Soporte Vital Básico. SANT0108: (1 ed.). (Leer  Capitulo 1) IC Editorial.',
-      tipo: 'Libro',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/225085',
     },
   ],
   glosario: [
@@ -350,7 +334,7 @@ export default {
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'CJosé Eduardo Solano Rivero',
+          nombre: 'José Eduardo Solano Rivero',
           cargo: 'Animador y productor multimedia',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },

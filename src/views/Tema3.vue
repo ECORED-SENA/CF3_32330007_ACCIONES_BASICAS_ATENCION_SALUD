@@ -82,7 +82,7 @@
               .borde-8.p-4.fondo-color-sistema-j.text-center.h-100
                 .d-inline-flex.rounded-circle.fondo-color-sistema-o.align-items-center.justify-content-center.mb-4(style="height: 53px;width: 53px;")
                   h2.c-color-acento-contenido.mb-0 6
-                p.mb-0.text-start Cada dos minutos verifique la respiración y el pulso. Siempre termine los ciclos con las 2 ventilaciones.
+                p.mb-0.text-start Cada dos minutos, verifique la respiración y el pulso. Siempre, termine los ciclos con las 2 ventilaciones.
     
     p.mb-4(data-aos="fade") Continúe las maniobras hasta cuándo:
 

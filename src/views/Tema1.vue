@@ -101,7 +101,7 @@
                   p Ciego y apéndice, ovario y trompa derecha, polo inferior del riñón y uréter derecho, otras partes del tubo digestivo (colon ascendente), canal inguinal.
               .div(titulo="Cuadrante inferior izquierdo")
                 .ps-md-5.ms-md-3
-                  p Colon sigmoides y parte del colon descendente, ovario y trompa izquierda, polo inferior del riñón y uréter izquierdo, canal inguinal.
+                  p Colon sigmoide y parte del colon descendente, ovario y trompa izquierda, polo inferior del riñón y uréter izquierdo, canal inguinal.
     
     Separador
 

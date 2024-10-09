@@ -224,7 +224,7 @@
                 thead
                   tr
                     th Tipo de Presión Arterial
-                    th Valores Normales (mm Hg)
+                    th Valores Normales (mmHg)
                 tbody
                   tr
                     td.text-center Sistólica
