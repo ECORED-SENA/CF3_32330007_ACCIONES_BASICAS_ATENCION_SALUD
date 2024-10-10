@@ -330,7 +330,7 @@ export default {
         },
         {
           nombre: 'Edwin Sneider Velandia Suarez',
-          cargo: 'Desarrollador <em>fullstack</em>',
+          cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
